@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A0A9CC829C6116200E4AA09 /* FlashcardUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0A9CC729C6116200E4AA09 /* FlashcardUIColor.swift */; };
+		3A41BD3A299D58FC0043EBE0 /* Flashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A41BD39299D58FB0043EBE0 /* Flashcard.swift */; };
+		3A41BD3C299D61A50043EBE0 /* FlashcardListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A41BD3B299D61A50043EBE0 /* FlashcardListViewCell.swift */; };
+		3A41BD3E299D6FAC0043EBE0 /* FlashcardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A41BD3D299D6FAC0043EBE0 /* FlashcardListViewModel.swift */; };
 		3AD02577298947EC00ACBBF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD02576298947EC00ACBBF5 /* AppDelegate.swift */; };
 		3AD02579298947EC00ACBBF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD02578298947EC00ACBBF5 /* SceneDelegate.swift */; };
-		3AD0257B298947EC00ACBBF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD0257A298947EC00ACBBF5 /* ViewController.swift */; };
+		3AD0257B298947EC00ACBBF5 /* FlashcardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD0257A298947EC00ACBBF5 /* FlashcardListViewController.swift */; };
 		3AD0257E298947EC00ACBBF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD0257C298947EC00ACBBF5 /* Main.storyboard */; };
 		3AD02580298947EC00ACBBF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AD0257F298947EC00ACBBF5 /* Assets.xcassets */; };
 		3AD02583298947EC00ACBBF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD02581298947EC00ACBBF5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A0A9CC729C6116200E4AA09 /* FlashcardUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardUIColor.swift; sourceTree = "<group>"; };
+		3A41BD39299D58FB0043EBE0 /* Flashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashcard.swift; sourceTree = "<group>"; };
+		3A41BD3B299D61A50043EBE0 /* FlashcardListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardListViewCell.swift; sourceTree = "<group>"; };
+		3A41BD3D299D6FAC0043EBE0 /* FlashcardListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardListViewModel.swift; sourceTree = "<group>"; };
 		3AD02573298947EC00ACBBF5 /* Flashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD02576298947EC00ACBBF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AD02578298947EC00ACBBF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3AD0257A298947EC00ACBBF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AD0257A298947EC00ACBBF5 /* FlashcardListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardListViewController.swift; sourceTree = "<group>"; };
 		3AD0257D298947EC00ACBBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3AD0257F298947EC00ACBBF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AD02582298947EC00ACBBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A41BD38299D58E20043EBE0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A41BD39299D58FB0043EBE0 /* Flashcard.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		3AD0256A298947EC00ACBBF5 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +72,51 @@
 		3AD02575298947EC00ACBBF5 /* Flashcards */ = {
 			isa = PBXGroup;
 			children = (
-				3AD02576298947EC00ACBBF5 /* AppDelegate.swift */,
-				3AD02578298947EC00ACBBF5 /* SceneDelegate.swift */,
-				3AD0257A298947EC00ACBBF5 /* ViewController.swift */,
-				3AD0257C298947EC00ACBBF5 /* Main.storyboard */,
-				3AD0257F298947EC00ACBBF5 /* Assets.xcassets */,
-				3AD02581298947EC00ACBBF5 /* LaunchScreen.storyboard */,
+				3A41BD38299D58E20043EBE0 /* Models */,
+				3AD0258D2989480500ACBBF5 /* Resources */,
+				3AD0258C2989480000ACBBF5 /* Controllers */,
+				3AD0258B298947FA00ACBBF5 /* ViewModels */,
+				3AD0258A298947F400ACBBF5 /* Views */,
 				3AD02584298947EC00ACBBF5 /* Info.plist */,
 			);
 			path = Flashcards;
+			sourceTree = "<group>";
+		};
+		3AD0258A298947F400ACBBF5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A41BD3B299D61A50043EBE0 /* FlashcardListViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3AD0258B298947FA00ACBBF5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3A41BD3D299D6FAC0043EBE0 /* FlashcardListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3AD0258C2989480000ACBBF5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3AD0257A298947EC00ACBBF5 /* FlashcardListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3AD0258D2989480500ACBBF5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3AD02576298947EC00ACBBF5 /* AppDelegate.swift */,
+				3AD02578298947EC00ACBBF5 /* SceneDelegate.swift */,
+				3AD0257C298947EC00ACBBF5 /* Main.storyboard */,
+				3AD02581298947EC00ACBBF5 /* LaunchScreen.storyboard */,
+				3AD0257F298947EC00ACBBF5 /* Assets.xcassets */,
+				3A0A9CC729C6116200E4AA09 /* FlashcardUIColor.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +190,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AD0257B298947EC00ACBBF5 /* ViewController.swift in Sources */,
+				3A0A9CC829C6116200E4AA09 /* FlashcardUIColor.swift in Sources */,
+				3AD0257B298947EC00ACBBF5 /* FlashcardListViewController.swift in Sources */,
+				3A41BD3C299D61A50043EBE0 /* FlashcardListViewCell.swift in Sources */,
 				3AD02577298947EC00ACBBF5 /* AppDelegate.swift in Sources */,
+				3A41BD3E299D6FAC0043EBE0 /* FlashcardListViewModel.swift in Sources */,
+				3A41BD3A299D58FC0043EBE0 /* Flashcard.swift in Sources */,
 				3AD02579298947EC00ACBBF5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
