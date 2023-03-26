@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A0A9CC829C6116200E4AA09 /* FlashcardUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0A9CC729C6116200E4AA09 /* FlashcardUIColor.swift */; };
+		3A0A9CC829C6116200E4AA09 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0A9CC729C6116200E4AA09 /* UIColor+Extension.swift */; };
 		3A41BD3A299D58FC0043EBE0 /* Flashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A41BD39299D58FB0043EBE0 /* Flashcard.swift */; };
 		3A41BD3C299D61A50043EBE0 /* FlashcardListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A41BD3B299D61A50043EBE0 /* FlashcardListViewCell.swift */; };
 		3A41BD3E299D6FAC0043EBE0 /* FlashcardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A41BD3D299D6FAC0043EBE0 /* FlashcardListViewModel.swift */; };
@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3A0A9CC729C6116200E4AA09 /* FlashcardUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardUIColor.swift; sourceTree = "<group>"; };
+		3A0A9CC729C6116200E4AA09 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		3A41BD39299D58FB0043EBE0 /* Flashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashcard.swift; sourceTree = "<group>"; };
 		3A41BD3B299D61A50043EBE0 /* FlashcardListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardListViewCell.swift; sourceTree = "<group>"; };
 		3A41BD3D299D6FAC0043EBE0 /* FlashcardListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardListViewModel.swift; sourceTree = "<group>"; };
@@ -114,7 +114,7 @@
 				3AD0257C298947EC00ACBBF5 /* Main.storyboard */,
 				3AD02581298947EC00ACBBF5 /* LaunchScreen.storyboard */,
 				3AD0257F298947EC00ACBBF5 /* Assets.xcassets */,
-				3A0A9CC729C6116200E4AA09 /* FlashcardUIColor.swift */,
+				3A0A9CC729C6116200E4AA09 /* UIColor+Extension.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -190,7 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A0A9CC829C6116200E4AA09 /* FlashcardUIColor.swift in Sources */,
+				3A0A9CC829C6116200E4AA09 /* UIColor+Extension.swift in Sources */,
 				3AD0257B298947EC00ACBBF5 /* FlashcardListViewController.swift in Sources */,
 				3A41BD3C299D61A50043EBE0 /* FlashcardListViewCell.swift in Sources */,
 				3AD02577298947EC00ACBBF5 /* AppDelegate.swift in Sources */,
