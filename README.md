@@ -3,7 +3,7 @@
 
 Flashcards is a language study app that is intended to be used for vocabulary acquisition.
 
-- MVVM Architecture
+- Storyboard
 - Navigation Controller
 - CollectionView
 - UserDefaults
